@@ -9,8 +9,7 @@ app.get("/", (req,res) =>{
 
 app.get("/getNames", (req,res) => {
     res.setHeader('Content-Type', 'text/plain');
-    var a = req.query;
-    res.write(a);
+    res.write("Hii");
     res.end();
 })
 
