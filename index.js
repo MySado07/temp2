@@ -10,7 +10,7 @@ app.get("/", (req,res) =>{
 app.get("/getNames", (req,res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.write("Hii!");
-    res.write("hiii");
+    res.write("hi");
     res.end();
 })
 
